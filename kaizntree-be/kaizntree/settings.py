@@ -28,10 +28,10 @@ SECRET_KEY = 'django-insecure-2uk+5s3bbcs1#xx00u0%$ih^4o(b6vaym9j_hi8f@n+tldnjx8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["kaizntree-be.herokuapp.com"]
+ALLOWED_HOSTS = ["https://kaizntree-be.herokuapp.com"]
 CORS_ALLOWED_ORIGINS=[
-    "kaizntree-be.herokuapp.com",
-    "kaizntree-fe.herokuapp.com",
+    "https://kaizntree-be.herokuapp.com",
+    "https://kaizntree-fe.herokuapp.com",
     "http://localhost:5173"
 ]
 
