@@ -1,0 +1,142 @@
+[
+    {
+        "model": "kaizntree.category",
+        "pk": 1,
+        "fields": {
+            "name": "Bundles"
+        }
+    },
+    {
+        "model": "kaizntree.category",
+        "pk": 2,
+        "fields": {
+            "name": "Finished Products"
+        }
+    },
+    {
+        "model": "kaizntree.category",
+        "pk": 3,
+        "fields": {
+            "name": "Raw Materials"
+        }
+    },
+    {
+        "model": "kaizntree.tag",
+        "pk": 1,
+        "fields": {
+            "name": "Etsy"
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 1,
+        "fields": {
+            "sku": "ETSY-FOREST",
+            "name": "Etsy Bundle Pack",
+            "category": 1,
+            "tags": [1],
+            "in_stock": 0,
+            "available_stock": 0
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 2,
+        "fields": {
+            "sku": "NY-ETSY",
+            "name": "NY Print Single Beeswax Wrap",
+            "category": 2,
+            "tags": [1],
+            "in_stock": 0,
+            "available_stock": 0
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 3,
+        "fields": {
+            "sku": "BWAX",
+            "name": "Beeswax",
+            "category": 3,
+            "tags": [],
+            "in_stock": 599.425,
+            "available_stock": 487.425
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 4,
+        "fields": {
+            "sku": "OCNCOT",
+            "name": "Cotton - Ocean Print",
+            "category": 3,
+            "tags": [1],
+            "in_stock": 88.75,
+            "available_stock": 88.75,
+            "stock_status":"LOW STOCK"
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 5,
+        "fields": {
+            "sku": "JNGLCOT",
+            "name": "Cotton - Jungle Print",
+            "category": 3,
+            "tags": [1],
+            "in_stock": 18.75,
+            "available_stock": 0,
+            "stock_status":"OUT OF STOCK"
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 6,
+        "fields": {
+            "sku": "HNYCOT",
+            "name": "Cotton - Honeycomb Print",
+            "category": 3,
+            "tags": [1],
+            "in_stock": 278.875,
+            "available_stock": 212.625
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 7,
+        "fields": {
+            "sku": "OCN-S",
+            "name": "Ocean Single Beeswax Wrap",
+            "category": 2,
+            "tags": [1],
+            "in_stock": 185,
+            "available_stock": 60
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 8,
+        "fields": {
+            "sku": "JNGL-S",
+            "name": "Jungle Print Single Beeswax Wrap",
+            "category": 2,
+            "tags": [1],
+            "in_stock": 239,
+            "available_stock": 119
+        }
+    },
+    {
+        "model": "kaizntree.item",
+        "pk": 9,
+        "fields": {
+            "sku": "HNY-S",
+            "name": "Honeycomb Single Beeswax Wrap",
+            "category": 2,
+            "tags": [1],
+            "in_stock": 186,
+            "available_stock": 59,
+            "stock_status":"LOW STOCK"
+        }
+    }
+   
+]
